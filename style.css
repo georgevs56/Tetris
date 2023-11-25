@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    display: flex;
+    height: 90vh;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-direction: column;
+    background-color: whitesmoke;
+    
+}
+#score-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+#score {
+    position: absolute;
+    top: 0;
+    left: 10px; 
+    z-index: 1; 
+}
+
+#tetris {
+    background-color:black;
+    box-shadow: 0 0 10px 2px blue;
+    border-radius: 25px;
+}
